@@ -13,7 +13,7 @@ require('dotenv').config();
     database: process.env.DB_DATABASE,
     username: process.env.DB_USERNAME,
     password: String(process.env.DB_PASSWORD),
-    synchronize: true,
+    synchronize: false,
     entities: [__dirname + '/**/*.entity{.js,.ts}'],
     logging: true,
 
